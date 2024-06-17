@@ -11,5 +11,5 @@ print(array)
 print(data.corr())
 
 #Creation of plot
-data.plot(kind='scatter',x='Calories',y='Duration')
+data.plot(kind='scatter',x='Calories',y='Duration').get_figure().savefig('plot.png')
 plt.show()
